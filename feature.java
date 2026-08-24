@@ -14,4 +14,8 @@ public class feature {
     public String getDescription() {
         return description;
     }
+    public void setName(String name) {
+        this.name = name;
+    }  
+    System.out.println("Name: " + name); 
 }
